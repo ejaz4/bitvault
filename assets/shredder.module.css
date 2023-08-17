@@ -1,0 +1,49 @@
+#GBP {
+  animation: slideDown 5s ease infinite;
+}
+
+#CRYPTO {
+  animation: slideUp 5s ease infinite;
+}
+
+@keyframes slideUp {
+  0% {
+    opacity: 1;
+    translate: 0px 0px;
+  }
+  10% {
+    opacity: 0;
+    translate: 0px -170px;
+  }
+
+  90% {
+    opacity: 0;
+    translate: 0px -170px;
+  }
+
+  100% {
+    opacity: 1;
+    translate: 0px 0px;
+  }
+}
+
+@keyframes slideDown {
+  0% {
+    opacity: 0;
+    translate: 0px 170px;
+  }
+  10% {
+    opacity: 1;
+    translate: 0px 0px;
+  }
+
+  90% {
+    opacity: 1;
+    translate: 0px 0px;
+  }
+
+  100% {
+    opacity: 0;
+    translate: 0px 170px;
+  }
+}
