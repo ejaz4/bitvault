@@ -183,5 +183,6 @@
   background-image: url(/assets/pixy-dust.svg);
   background-size: 100%;
   padding-top: 30px;
+  padding-bottom: 30px;
   background-repeat: no-repeat;
 }
