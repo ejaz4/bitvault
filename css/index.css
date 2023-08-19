@@ -41,17 +41,17 @@
   }
 }
 
-.textArt {
-  .in {
+.textArt .in {
     background: linear-gradient(216deg, #f72a2a, #f7a12a, #d12af7);
     background-size: 600% 600%;
 
     animation: gradient 10s var(--cubic-bezier) infinite,
-      swipeIn 0.3s var(--cubic-bezier) forwards;
+    swipeIn 0.3s var(--cubic-bezier) forwards;
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
-  }
-  .out {
+}
+
+.textArt .out {
     background: linear-gradient(216deg, #f72a2a, #f7a12a, #d12af7);
     background-size: 600% 600%;
 
@@ -59,10 +59,10 @@
       swipeOut 0.3s var(--wayout-cubic-bezier) forwards;
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
-  }
-  .disabled {
+}
+
+.textArt .disabled {
     display: none;
-  }
 }
 
 @keyframes swipeIn {
